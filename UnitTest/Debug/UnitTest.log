@@ -1,0 +1,9 @@
+﻿  Skipping... (no relevant changes detected)
+  stdafx.cpp
+  unittest1.cpp
+     Creating library C:\Users\tr1i5153\documents\visual studio 2015\Projects\createJSON\Debug\UnitTest.lib and object C:\Users\tr1i5153\documents\visual studio 2015\Projects\createJSON\Debug\UnitTest.exp
+unittest1.obj : error LNK2019: unresolved external symbol "public: __thiscall json::json(void)" (??0json@@QAE@XZ) referenced in function "public: void __thiscall UnitTest::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@UnitTest@@QAEXXZ)
+unittest1.obj : error LNK2019: unresolved external symbol "public: __thiscall json::~json(void)" (??1json@@QAE@XZ) referenced in function "public: void * __thiscall json::`scalar deleting destructor'(unsigned int)" (??_Gjson@@QAEPAXI@Z)
+unittest1.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall json::serialize(void)" (?serialize@json@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "public: void __thiscall UnitTest::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@UnitTest@@QAEXXZ)
+unittest1.obj : error LNK2019: unresolved external symbol "public: class json * __thiscall json::addJsonArray(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::vector<class json,class std::allocator<class json> > &)" (?addJsonArray@json@@QAEPAV1@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV?$vector@Vjson@@V?$allocator@Vjson@@@std@@@3@@Z) referenced in function "public: void __thiscall UnitTest::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@UnitTest@@QAEXXZ)
+C:\Users\tr1i5153\documents\visual studio 2015\Projects\createJSON\Debug\UnitTest.dll : fatal error LNK1120: 4 unresolved externals
